@@ -27,10 +27,11 @@ build - компилирует приложение
 
 ## Реализовный функционал:
 
-- HTTP сервер с реализацией Gracefully Shutdown (https://gin-gonic.com/docs/examples/graceful-restart-or-stop/)
-- Использование Gin для end-point & middleware
+- Реализован функционал подсчета дней до требуемой даты с учетом исключений, грамотно формулируются выводы результатов.
+- HTTP сервер с реализацией Gracefully Shutdown (https://gin-gonic.com/docs/examples/graceful-restart-or-stop/).
+- Использование Gin для end-point & middleware.
 - End-point по пути /when/:year, так же добавлены info и при ошибочном url открытие страницы 404.
-- Сборка и запуск приложения через Makefile
-- Структурирование приложения
+- Сборка и запуск приложения через Makefile.
+- Структурирование приложения.
 - Простое логгирование и ошибки работы с помощью Zap.
-- Переменные окружения .env
+- Переменные окружения .env.
